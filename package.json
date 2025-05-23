@@ -1,6 +1,6 @@
 {
   "name": "markdown-it-plotly",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Markdown-it plugin for embedding interactive Plotly.js graphs",
   "main": "index.js",
   "files": [
