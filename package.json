@@ -1,0 +1,29 @@
+{
+  "name": "markdown-it-plotly",
+  "version": "1.0.0",
+  "description": "Markdown-it plugin for embedding interactive Plotly.js graphs",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "markdown-it",
+    "markdown",
+    "plotly",
+    "visualization",
+    "charts",
+    "graphs"
+  ],
+  "author": "",
+  "license": "MIT",
+  "peerDependencies": {
+    "markdown-it": "^14.1.0"
+  },
+  "dependencies": {
+  "markdown-it": "^14.1.0",
+  "plotly.js-dist-min": "^2.14.0"
+},
+"devDependencies": {
+  "jsdom": "^22.1.0"
+}
+}

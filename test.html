@@ -1,0 +1,29 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Plotly Test</title>
+</head>
+<body>
+  
+    <div id="plotly-islfyp3bi" style="width:800px;height:600px"></div>
+    <script src="https://cdn.plot.ly/plotly-2.14.0.min.js"></script>
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        try {
+          Plotly.newPlot(
+            'plotly-islfyp3bi', 
+            [{"type":"bar","x":[1,2,3],"y":[2,10,3]}], 
+            {"title":"Test Chart"}, 
+            {}
+          );
+        } catch (e) {
+          console.error('Plotly error:', e);
+          document.getElementById('plotly-islfyp3bi').innerHTML = 
+            '<div style="color:red;padding:1em">Chart error: ' + e.message + '</div>';
+        }
+      });
+    </script>
+  
+</body>
+</html>
